@@ -1,4 +1,3 @@
-include <stdio.h>
 /* Prints a line */
 int main(void)
 {
