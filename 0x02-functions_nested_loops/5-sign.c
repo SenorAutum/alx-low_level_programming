@@ -5,7 +5,7 @@
  * @n : character to be checked
  * return : 0, -1 or 1
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 	if(n > 0)
 	{
