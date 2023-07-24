@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - main block
@@ -8,7 +7,7 @@
  */
 int _islower(int c)
 {
-	if (c <= '97'; c >= '122';)	
+	if (c <= '97' && c >= '122');
 	{
 		printf("c is lowercase");
 		return (1);
