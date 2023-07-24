@@ -1,27 +1,27 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * print_sign - prints sign of a number
- * @n : character to be checked
- * Return : 0, -1 or 1
+ * print_sign - entry point
+ * @n : number to check
+ * Return:0 or 1
  */
 int print_sign(int n)
 {
+	int numz;
+
 	if (n > 0)
 	{
-		printf("+");
-		return (1);
+		numz = 1;
+		_putchar('+');
 	}
-
 	else if (n == 0)
 	{
-		printf("0");
-		return (0);
+		numz = 0;
+		_putchar('0');
 	}
-
 	else
 	{
-		printf("-");
-		return (-1);
+		numz = -1;
+		_putchar('-');
 	}
+	return (numz);
 }
