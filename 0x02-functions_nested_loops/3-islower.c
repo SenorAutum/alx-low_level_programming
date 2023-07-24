@@ -3,20 +3,10 @@
 /**
  * main - main block
  * _islower - checks for lower case
- * Return (0) always success
+ * @c : character to check for lower case
+ * Return (0) or (1)
  */
 int _islower(int c)
 {
-	if (c <= '97' && c >= '122');
-	{
-		printf("c is lowercase");
-		return (1);
-	}
-
-	else
-	{
-		printf("c is uppercase");
-		return (0);
-	}
+	return (c >= '97' && c <= '122');
 }
-
